@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AwesomeBooks App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h3 class="nav-title">Awesome Books</h3>
+      <ul class="navlinks">
+        <li class="navitems">List</li>
+        <li class="navitems">Add new</li>
+        <li class="navitems" id="contact">Contact</li>
+      </ul>
+    </nav>
+    <h3 class="dates">25/01/2023</h3>
+    <div class="flex-container">
+      <div class="bookrack">
+        <h1 class="heading">My <span class="decoratedtext">Book</span>List</h1>
+        <div class="bookrack2">
+          <div id="awesomebooks"></div>
+        </div>
+      </div>
+      <form id="formcontainer">
+        <h2 class="formtitle">Add a new Awesome book</h2>
+        <ul class="forminput">
+          <li>
+            <input
+              type="text"
+              id="title"
+              class="formcontrol"
+              placeholder="Enter Book"
+              required
+            />
+          </li>
+          <li>
+            <input
+              type="text"
+              id="author"
+              class="formcontrol"
+              placeholder="Enter Author"
+              required
+            />
+          </li>
+          <li>
+            <input type="submit" value="Add Book" id="btn" />
+          </li>
+        </ul>
+      </form>
+    </div>
+    <div class="contactcontainer">
+      <h2 class="contactus">Contact Information</h2>
+      <p>Do you have any question or you want to just say 'Hello'?</p>
+      <p>You can reach out to us!</p>
+      <ul>
+        <li>
+          <h4>Name: Daniel Majesty Owiri</h4>
+          <h4>Email: danielowiri@gmail.com</h4>
+          <h4>Github: DannieMo</h4>
+          <h4>LinkedIn: Daniel Majesty Owiri</h4>
+        </li>
+      </ul>
+    </div>
+    <footer class="footer">
+      <h4 class="copyright">
+        Copy Right <span class="address">@</span>Daniel Majesty Owiri
+      </h4>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>

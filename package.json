@@ -1,0 +1,26 @@
+{
+  "name": "Awesome-BooksES6-Project",
+  "version": "1.0.0",
+  "description": "Awesome Books is a simple website that displays a list of books and allows you to add and remove books from that list. This is a Microverse Module 2 project. This project is built according to the requirements given.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DannieMo/Awesome-BooksES6-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DannieMo/Awesome-BooksES6-Project/issues"
+  },
+  "homepage": "https://github.com/DannieMo/Awesome-BooksES6-Project#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
