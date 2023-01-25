@@ -1,12 +1,5 @@
 // alert("Hellow world!");
-// console.log(alert);
-// Variables
-const titleInput = document.querySelector('#title');
-const authorInput = document.querySelector('#author');
-const button = document.querySelector('#btn');
-const bookList = document.querySelector('#awesomebooks');
-
-button.addEventListener('click', function () {
+// console.log(alert);ction () {
   if (titleInput.value == '' && authorInput.value == '') {
     alert('Pls enter your input');
   } else {
@@ -22,3 +15,10 @@ button.addEventListener('click', function () {
     awesomebooks.appendChild(bookListRack);
   }
 });
+// Variables
+const titleInput = document.querySelector('#title');
+const authorInput = document.querySelector('#author');
+const button = document.querySelector('#btn');
+const bookList = document.querySelector('#awesomebooks');
+
+button.addEventListener('click',
