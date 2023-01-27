@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: rgb(240, 236, 236);
+  background-color: rgb(70, 52, 52);
+  color: antiquewhite;
   max-width: 100%;
   display: flex;
   flex-direction: column;
@@ -14,18 +15,31 @@ body {
   font-family: 'Nunito', sans-serif, Verdana, Geneva, Tahoma;
 }
 
+ul {
+  padding-right: 5rem;
+}
+
 li {
   list-style: none;
+}
+
+#awesomebooks li {
+  list-style: none;
+  display: flex;
+  width: 60rem;
+  justify-content: space-between;
+  padding: 1rem 0 1rem 15rem;
 }
 
 .navbar {
   display: flex;
   width: 80%;
-  height: 5vh;
+  height: -6vh;
   margin: 20px;
-  padding: 10px;
+  padding: 10px 25px 0;
   font-size: 18px;
   border: 3px solid rgb(84, 74, 74);
+  border-radius: 10px;
   justify-content: space-between;
 }
 
@@ -33,6 +47,10 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.navlinks li {
+  cursor: pointer;
 }
 
 .navitems {
@@ -53,6 +71,7 @@ li {
   width: 70%;
   margin: auto;
   margin-top: 90px;
+  margin-bottom: 90px;
   text-align: center;
 }
 
@@ -65,9 +84,8 @@ li {
   color: #8f0e0e;
 }
 
-#formcontainer {
+.form {
   align-items: center;
-  /* background-color: bisque; */
 }
 
 .formtitle {
@@ -79,11 +97,12 @@ li {
 
 #btn {
   height: 35px;
-  width: 8%;
+  width: 20%;
+  border-radius: 13px;
+  cursor: pointer;
   margin-top: 10px;
   font-size: 14px;
   border: none;
-  /* border: 4px solid rgb(84, 74, 74); */
   background-color: #8f0e0e;
   font-weight: 800;
   color: white;
@@ -100,9 +119,9 @@ li {
   font-weight: 800;
   /* color: #bb1212; */
 }
-
-.contactcontainer {
-  margin-top: 50px;
+.contacts {
+  margin-top: -7rem;
+  margin-bottom: 7rem;
 }
 
 .footer {
@@ -113,8 +132,18 @@ li {
   margin-bottom: 10px;
   padding: 10px;
   font-size: 18px;
+  border-radius: 10px;
 }
 
 .address {
   color: #8f0e0e;
+}
+
+.hidden {
+  display: none;
+}
+
+.contactus {
+  margin: 0;
+  padding: 0;
 }
