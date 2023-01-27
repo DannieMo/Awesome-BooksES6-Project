@@ -23,6 +23,10 @@ li {
   list-style: none;
 }
 
+.navlinks li {
+  cursor: pointer;
+}
+
 #awesomebooks li {
   list-style: none;
   display: flex;
@@ -49,10 +53,6 @@ li {
   align-items: center;
 }
 
-.navlinks li {
-  cursor: pointer;
-}
-
 .navitems {
   border-right: 2px solid gray;
   margin: 5px;
@@ -60,7 +60,7 @@ li {
 }
 
 .dates {
-  margin-top: 0 auto;
+  margin-top: auto;
 }
 
 #contact {
@@ -109,7 +109,6 @@ li {
 }
 
 .formcontrol {
-  background-color: white;
   height: 50px;
   width: 40%;
   margin-top: 10px;
@@ -117,18 +116,17 @@ li {
   border: 4px solid rgb(84, 74, 74);
   background-color: #fff;
   font-weight: 800;
-  /* color: #bb1212; */
 }
+
 .contacts {
   margin-top: -7rem;
   margin-bottom: 7rem;
 }
 
 .footer {
-  margin-top: 50px;
   width: 80%;
   border: 4px solid rgb(84, 74, 74);
-  margin: 20px;
+  margin: 50px 20px 20px;
   margin-bottom: 10px;
   padding: 10px;
   font-size: 18px;
