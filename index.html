@@ -6,25 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AwesomeBooks App</title>
     <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/deef7307a0.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav class="navbar">
       <h3 class="nav-title">Awesome Books</h3>
       <ul class="navlinks">
-        <li class="navitems">List</li>
-        <li class="navitems">Add new</li>
-        <li class="navitems" id="contact">Contact</li>
+        <li class="navitems" id="mybooks">List</li>
+        <li class="navitems" id="form">Add new</li>
+        <li class="navitems" id="contacts">Contact</li>
       </ul>
     </nav>
-    <h3 class="dates">25/01/2023</h3>
+    <h3 class="dates"></h3>
     <div class="flex-container">
-      <div class="bookrack">
+      <div class="mybooks">
         <h1 class="heading">My <span class="decoratedtext">Book</span>List</h1>
         <div class="bookrack2">
           <div id="awesomebooks"></div>
         </div>
       </div>
-      <form id="formcontainer">
+      <form class="form">
         <h2 class="formtitle">Add a new Awesome book</h2>
         <ul class="forminput">
           <li>
@@ -51,7 +55,7 @@
         </ul>
       </form>
     </div>
-    <div class="contactcontainer">
+    <div class="contacts">
       <h2 class="contactus">Contact Information</h2>
       <p>Do you have any question or you want to just say 'Hello'?</p>
       <p>You can reach out to us!</p>
@@ -69,6 +73,6 @@
         Copy Right <span class="address">@</span>Daniel Majesty Owiri
       </h4>
     </footer>
-    <script src="./main.js"></script>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
